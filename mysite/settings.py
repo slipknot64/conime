@@ -27,7 +27,7 @@ SECRET_KEY = '_caglvlc0w69=*wlq7(b!twl8w(rl51*uu)uiy(vpy!6pyf30h'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', '.pythonanywhere.com']
+ALLOWED_HOSTS = ['127.0.0.1', '.pythonanywhere.com', 'herokudjangoapp.herokuapp.com']
 
 
 # Application definition
@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'canime.apps.CanimeConfig',
+    'herokuapp',
 ]
 
 MIDDLEWARE = [
